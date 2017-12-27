@@ -1,6 +1,8 @@
 <template>
-    <div>
+    <div class="section is-medium">
+    <div class="container is-fluid">
         <problem v-for="problem in problems" :key="problem.id" :problem.sync="problem"></problem>
+    </div>
     </div>
 </template>
 

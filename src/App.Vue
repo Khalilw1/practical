@@ -1,6 +1,5 @@
 <template>
-  <div id="app">
-    <h1>Welcome To The Practical Profiler</h1>
+  <div>
     <ProblemList />
   </div>
 </template>
