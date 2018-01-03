@@ -1,5 +1,7 @@
 <template>
   <div>
+    <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+    </nav>
     <ProblemList />
   </div>
 </template>
@@ -14,12 +16,3 @@ export default {
 }
 </script>
 
-<style>
-@import url('https://fonts.googleapis.com/css?family=Lato');
-
-h1 {
-    font-family: 'Lato';
-    color: steelblue;
-    text-align: center;
-}
-</style>
